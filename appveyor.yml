@@ -46,16 +46,12 @@ test_script:
 
 deploy:
 - provider: NuGet
-  server: https://www.myget.org/F/discord-net/api/v2/package
   api_key:
-    secure: Jl7BXeUjRnkVHDMBuUWSXcEOkrli1PBleW2IiLyUs5j63UNUNp1hcjaUJRujx9lz
-  symbol_server: https://www.myget.org/F/discord-net/symbols/api/v2/package
+    secure: 5rH706uG6paE0SuMa0J6yO+GMc7StCcHYFI6UHj3N3EzKqtpL580ZH6npyEfbyd/
   on:
     branch: dev
 - provider: NuGet
-  server: https://www.myget.org/F/rogueexception/api/v2/package
   api_key:
-    secure: D+vW2O2LBf/iJb4f+q8fkyIW2VdIYIGxSYLWNrOD4BHlDBZQlJipDbNarWjUr2Kn
-  symbol_server: https://www.myget.org/F/rogueexception/symbols/api/v2/package
+    secure: 5rH706uG6paE0SuMa0J6yO+GMc7StCcHYFI6UHj3N3EzKqtpL580ZH6npyEfbyd/
   on:
     branch: dev
