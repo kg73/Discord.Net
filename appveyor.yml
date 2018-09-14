@@ -46,12 +46,9 @@ test_script:
 
 deploy:
 - provider: NuGet
+  server: https://www.myget.org/F/kg73-discord-net/api/v2
   api_key:
-    secure: 5rH706uG6paE0SuMa0J6yO+GMc7StCcHYFI6UHj3N3EzKqtpL580ZH6npyEfbyd/
-  on:
-    branch: dev
-- provider: NuGet
-  api_key:
-    secure: 5rH706uG6paE0SuMa0J6yO+GMc7StCcHYFI6UHj3N3EzKqtpL580ZH6npyEfbyd/
+    secure: vL+/g3z5WmrG6mvirSqv4q0dByhF92CsrFoldJeG06O08eElTsn5wJpvs/fTb/UA
+  symbol_server: https://www.myget.org/F/kg73-discord-net/symbols/
   on:
     branch: dev
